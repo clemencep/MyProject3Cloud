@@ -7,12 +7,12 @@ services:
   backend_user:
     build:
       context: ../../restapi-user
-    image: clemencep/restapi-user
+    image: clemencep /restapi-user
 
   backend_feed:
     build:
       context: ../../restapi-feed  
-    image: clemencp/restapi-feed
+    image: clemencp /restapi-feed
 
   frontend:
     build:
