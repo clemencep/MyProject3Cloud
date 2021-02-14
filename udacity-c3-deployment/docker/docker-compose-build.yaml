@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: clemencep/reverseproxy 
+  backend_user:
+    build:
+      context: ../../restapi-user
+    image: clemencep/restapi-user
+  backend_feed:
+    build:
+      context: ../../restapi-feed  
+    image: clemencep/restapi-feed
+  frontend:
+    build:
+      context: ../../frontend  
+    image: clemencep/frontend

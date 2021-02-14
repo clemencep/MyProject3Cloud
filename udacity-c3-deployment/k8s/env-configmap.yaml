@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: patayobacket
+  AWS_PROFILE: default
+  AWS_REGION: us-east-2
+  JWT_SECRET: microservicedb
+  POSTGRESS_DB: microservicedbnew
+  POSTGRESS_HOST: microservicedbnew.c32tbb6kcke9.us-east-2.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
