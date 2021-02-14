@@ -7,12 +7,15 @@ services:
   backend_user:
     build:
       context: ../../restapi-user
-    image: clemencep/restapi-user
+    image: MyProject3Cloud/udacity-c3-restapi-user/
+
   backend_feed:
     build:
       context: ../../restapi-feed  
-    image: clemencep/restapi-feed
+    image: MyProject3Cloud/udacity-c3-restapi-feed/
+
   frontend:
     build:
       context: ../../frontend  
-    image: clemencep/frontend
+    image: MyProject3Cloud/udacity-c3-frontend/
+
